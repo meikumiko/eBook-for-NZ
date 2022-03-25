@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B3F6A3627ED659500D90383 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3F6A3527ED659400D90383 /* MapViewController.swift */; };
+		0B3F6A3827EDA8E000D90383 /* Map2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3F6A3727EDA8DF00D90383 /* Map2ViewController.swift */; };
+		0B3F6A3A27EDAFAC00D90383 /* map3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3F6A3927EDAFAC00D90383 /* map3ViewController.swift */; };
 		0B5CC00527DB6224005D1D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CC00427DB6224005D1D16 /* AppDelegate.swift */; };
 		0B5CC00727DB6224005D1D16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CC00627DB6224005D1D16 /* SceneDelegate.swift */; };
 		0B5CC00927DB6224005D1D16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CC00827DB6224005D1D16 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B3F6A3527ED659400D90383 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0B3F6A3727EDA8DF00D90383 /* Map2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map2ViewController.swift; sourceTree = "<group>"; };
+		0B3F6A3927EDAFAC00D90383 /* map3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map3ViewController.swift; sourceTree = "<group>"; };
 		0B5CC00127DB6224005D1D16 /* eBook for NZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eBook for NZ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B5CC00427DB6224005D1D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B5CC00627DB6224005D1D16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				0B5CC00627DB6224005D1D16 /* SceneDelegate.swift */,
 				0B5CC00827DB6224005D1D16 /* ViewController.swift */,
 				0B5CC00A27DB6224005D1D16 /* Main.storyboard */,
+				0B3F6A3727EDA8DF00D90383 /* Map2ViewController.swift */,
+				0B3F6A3527ED659400D90383 /* MapViewController.swift */,
+				0B3F6A3927EDAFAC00D90383 /* map3ViewController.swift */,
 				0B5CC00D27DB6226005D1D16 /* Assets.xcassets */,
 				0B5CC00F27DB6226005D1D16 /* LaunchScreen.storyboard */,
 				0B5CC01227DB6226005D1D16 /* Info.plist */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B3F6A3827EDA8E000D90383 /* Map2ViewController.swift in Sources */,
 				0B5CC00927DB6224005D1D16 /* ViewController.swift in Sources */,
 				0B5CC00527DB6224005D1D16 /* AppDelegate.swift in Sources */,
+				0B3F6A3A27EDAFAC00D90383 /* map3ViewController.swift in Sources */,
 				0B5CC00727DB6224005D1D16 /* SceneDelegate.swift in Sources */,
+				0B3F6A3627ED659500D90383 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +304,7 @@
 				DEVELOPMENT_TEAM = 6Y6W89FD4G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "eBook for NZ/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "eBook-NZ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,6 +333,7 @@
 				DEVELOPMENT_TEAM = 6Y6W89FD4G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "eBook for NZ/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "eBook-NZ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
